@@ -23,7 +23,7 @@ public class PermisoAdapter extends RecyclerView.Adapter<PermisoAdapter.ViewHold
     @NonNull
     @Override
     public PermisoAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v=ly;
+        //View v=ly;
 
         return null;
     }
@@ -46,8 +46,8 @@ public class PermisoAdapter extends RecyclerView.Adapter<PermisoAdapter.ViewHold
         Permiso PermisoH;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            txtPermiso=itemView.findViewById(R.id.tvPermiso);
-            swPermiso=itemView.findViewById(R.id.swPermiso);
+            //txtPermiso=itemView.findViewById(R.id.tvPermiso);
+            //sswPermiso=itemView.findViewById(R.id.swPermiso);
         }
 
 
